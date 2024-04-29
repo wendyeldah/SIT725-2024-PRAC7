@@ -1,0 +1,37 @@
+{
+  "name": "sit725-2023-t1-prac5",
+  "version": "1.0.0",
+  "description": "MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendyeldah/sit725-2023-t1-prac5.git"
+  },
+  "keywords": [
+    "SIT725-MVC"
+  ],
+  "author": "wendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendyeldah/sit725-2023-t1-prac5/issues"
+  },
+  "homepage": "https://github.com/wendyeldah/sit725-2023-t1-prac5#readme",
+  "dependencies": {
+    "chai-http": "^4.4.0",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mocha": "^10.4.0",
+    "mongodb": "^6.5.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "supertest": "^6.3.4"
+  }
+}
